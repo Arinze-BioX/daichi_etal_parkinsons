@@ -1,0 +1,12 @@
+pilot/bam/
+pilot/bam2/
+trial1_sept2024/sam/
+trial1_sept2024/selected_InPlasmid_reads/
+trial2_Oct2024/demultiplexed_fastq/
+trial2_Oct2024/sam/
+trial2_Oct2024/selected_InPlasmid_reads/
+trial3_KLR_Dec2024/bam/
+trial3_KLR_Dec2024/demultiplexed_fastq/
+trial3_KLR_Dec2024/selected_InPlasmid_reads/
+trial4_ActDel_Dec2024/selected_InPlasmid_reads/
+trial4_ActDel_Dec2024/bam/

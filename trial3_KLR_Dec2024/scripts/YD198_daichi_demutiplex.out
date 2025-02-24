@@ -1,0 +1,184 @@
+This is cutadapt 4.9 with Python 3.11.10
+Command line parameters: -Z -e 0.19 --no-indels --action none --discard-untrimmed -a file:YD198_index -o ../demultiplexed_fastq/{name}_R2_001.fastq.gz -p ../demultiplexed_fastq/{name}_R1_001.fastq.gz /work/yx222/temp/YD198_2.fq.gz /work/yx222/temp/YD198_1.fq.gz
+Processing paired-end reads on 1 core ...
+Finished in 42007.922 s (15.163 µs/read; 3.96 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:      2,770,513,388
+  Read 1 with adapter:              56,923,302 (2.1%)
+
+== Read fate breakdown ==
+Pairs discarded as untrimmed:    2,713,590,086 (97.9%)
+Pairs written (passing filters):    56,923,302 (2.1%)
+
+Total basepairs processed: 875,482,230,608 bp
+  Read 1: 459,905,222,408 bp
+  Read 2: 415,577,008,200 bp
+Total written (filtered):  17,987,763,432 bp (2.1%)
+  Read 1: 9,449,268,132 bp
+  Read 2: 8,538,495,300 bp
+
+=== First read: Adapter Pre-KLR-1 ===
+
+Sequence: GCGGATCGTTCTGCCT; Type: anchored 3'; Length: 16; Trimmed: 3877659 times
+
+No. of allowed errors: 3
+
+Bases preceding removed adapters:
+  A: 25.4%
+  C: 24.8%
+  G: 15.1%
+  T: 34.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+16	3877659	0.6	3	2870625 396780 61196 549058
+
+
+=== First read: Adapter Pre-KLR-2 ===
+
+Sequence: ATACCTGGGCTCAGGA; Type: anchored 3'; Length: 16; Trimmed: 30918203 times
+
+No. of allowed errors: 3
+
+Bases preceding removed adapters:
+  A: 29.5%
+  C: 29.2%
+  G: 15.8%
+  T: 25.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+16	30918203	0.6	3	25294163 5254127 251760 118153
+
+
+=== First read: Adapter Pre-KLR-3 ===
+
+Sequence: CCGCGTAACATGCCTA; Type: anchored 3'; Length: 16; Trimmed: 3042061 times
+
+No. of allowed errors: 3
+
+Bases preceding removed adapters:
+  A: 30.0%
+  C: 29.5%
+  G: 15.9%
+  T: 24.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+16	3042061	0.6	3	2930421 54792 11959 44889
+
+
+=== First read: Adapter Pre-KLR-4 ===
+
+Sequence: AAGGTAGGCAGCCTCG; Type: anchored 3'; Length: 16; Trimmed: 3553947 times
+
+No. of allowed errors: 3
+
+Bases preceding removed adapters:
+  A: 30.2%
+  C: 29.0%
+  G: 16.3%
+  T: 24.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+16	3553947	0.6	3	2904798 351214 24893 273042
+
+
+=== First read: Adapter Post-KLR-1 ===
+
+Sequence: CTTGCAGTTCCTCTAC; Type: anchored 3'; Length: 16; Trimmed: 3862381 times
+
+No. of allowed errors: 3
+
+Bases preceding removed adapters:
+  A: 0.2%
+  C: 0.2%
+  G: 0.2%
+  T: 99.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'T' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+16	3862381	0.6	3	3759313 57958 13063 32047
+
+
+=== First read: Adapter Post-KLR-2 ===
+
+Sequence: TCGGGATATGCCTCTT; Type: anchored 3'; Length: 16; Trimmed: 3500608 times
+
+No. of allowed errors: 3
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.1%
+  G: 0.1%
+  T: 99.7%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'T' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+16	3500608	0.6	3	3411039 58892 10702 19975
+
+
+=== First read: Adapter Post-KLR-3 ===
+
+Sequence: AATTCGGACTAGTACG; Type: anchored 3'; Length: 16; Trimmed: 4294755 times
+
+No. of allowed errors: 3
+
+Bases preceding removed adapters:
+  A: 0.8%
+  C: 0.8%
+  G: 0.8%
+  T: 97.7%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'T' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+16	4294755	0.6	3	4065716 113846 27968 87225
+
+
+=== First read: Adapter Post-KLR-4 ===
+
+Sequence: TACTGAAGGTAGAGAG; Type: anchored 3'; Length: 16; Trimmed: 3873688 times
+
+No. of allowed errors: 3
+
+Bases preceding removed adapters:
+  A: 0.2%
+  C: 0.2%
+  G: 0.2%
+  T: 99.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'T' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+16	3873688	0.6	3	3141965 667562 34744 29417
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.

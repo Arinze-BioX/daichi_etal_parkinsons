@@ -1,0 +1,9 @@
+[W::sam_read1_sam] Parse error at line 90100321
+samtools view: error reading file "/datacommons/ydiaolab/arinze/daichi/trial2_Oct2024/sam/D4_post_bwa_Del.sam"
+[E::sam_parse1] SEQ and QUAL are of different length
+[W::sam_read1_sam] Parse error at line 91750350
+samtools view: error reading file "/datacommons/ydiaolab/arinze/daichi/trial2_Oct2024/sam/D3_post_bwa_Del.sam"
+[W::sam_read1_sam] Parse error at line 92915476
+samtools view: error reading file "/datacommons/ydiaolab/arinze/daichi/trial2_Oct2024/sam/D1_post_bwa_Del.sam"
+[W::sam_read1_sam] Parse error at line 89322395
+samtools view: error reading file "/datacommons/ydiaolab/arinze/daichi/trial2_Oct2024/sam/D2_post_bwa_Del.sam"

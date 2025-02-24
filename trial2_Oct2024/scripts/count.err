@@ -1,0 +1,4 @@
+[W::sam_read1_sam] Parse error at line 81266275
+samtools view: error reading file "/datacommons/ydiaolab/arinze/daichi/trial2_Oct2024/sam/A4_post_bwa_Act.sam"
+[W::sam_read1_sam] Parse error at line 81457934
+samtools view: error reading file "/datacommons/ydiaolab/arinze/daichi/trial2_Oct2024/sam/A3_post_bwa_Act.sam"

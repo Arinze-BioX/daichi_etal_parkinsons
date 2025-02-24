@@ -1,0 +1,118 @@
+This is cutadapt 4.9 with Python 3.11.10
+Command line parameters: -Z -e 0.2 --no-indels --action none --discard-untrimmed -g ^NNNNNNNNNNTGACTGGTACTGACACGTCGCATG -G ^TGAGACTATAAATATCCCTTGGAGACCACCCTTGTTTGNNNNNNNNNNNNNNNNNNNNGTTTAAGAGCTAAGCTGGAAACAGC -o /datacommons/ydiaolab/arinze/daichi/trial3_KLR_Dec2024/selected_InPlasmid_reads/Post-KLR-4_R1_001.fastq.gz -p /datacommons/ydiaolab/arinze/daichi/trial3_KLR_Dec2024/selected_InPlasmid_reads/Post-KLR-4_R2_001.fastq.gz /datacommons/ydiaolab/arinze/daichi/trial3_KLR_Dec2024/demultiplexed_fastq/Post-KLR-4_R1_001.fastq.gz /datacommons/ydiaolab/arinze/daichi/trial3_KLR_Dec2024/demultiplexed_fastq/Post-KLR-4_R2_001.fastq.gz
+This is cutadapt 4.9 with Python 3.11.10
+This is cutadapt 4.9 with Python 3.11.10
+Command line parameters: -Z -e 0.2 --no-indels --action none --discard-untrimmed -g ^NNNNNNNNNNTGACTGGTACTGACACGTCGCATG -G ^TGAGACTATAAATATCCCTTGGAGACCACCCTTGTTTGNNNNNNNNNNNNNNNNNNNNGTTTAAGAGCTAAGCTGGAAACAGC -o /datacommons/ydiaolab/arinze/daichi/trial3_KLR_Dec2024/selected_InPlasmid_reads/Post-KLR-2_R1_001.fastq.gz -p /datacommons/ydiaolab/arinze/daichi/trial3_KLR_Dec2024/selected_InPlasmid_reads/Post-KLR-2_R2_001.fastq.gz /datacommons/ydiaolab/arinze/daichi/trial3_KLR_Dec2024/demultiplexed_fastq/Post-KLR-2_R1_001.fastq.gz /datacommons/ydiaolab/arinze/daichi/trial3_KLR_Dec2024/demultiplexed_fastq/Post-KLR-2_R2_001.fastq.gz
+Command line parameters: -Z -e 0.2 --no-indels --action none --discard-untrimmed -g ^NNNNNNNNNNTGACTGGTACTGACACGTCGCATG -G ^TGAGACTATAAATATCCCTTGGAGACCACCCTTGTTTGNNNNNNNNNNNNNNNNNNNNGTTTAAGAGCTAAGCTGGAAACAGC -o /datacommons/ydiaolab/arinze/daichi/trial3_KLR_Dec2024/selected_InPlasmid_reads/Post-KLR-3_R1_001.fastq.gz -p /datacommons/ydiaolab/arinze/daichi/trial3_KLR_Dec2024/selected_InPlasmid_reads/Post-KLR-3_R2_001.fastq.gz /datacommons/ydiaolab/arinze/daichi/trial3_KLR_Dec2024/demultiplexed_fastq/Post-KLR-3_R1_001.fastq.gz /datacommons/ydiaolab/arinze/daichi/trial3_KLR_Dec2024/demultiplexed_fastq/Post-KLR-3_R2_001.fastq.gz
+Processing paired-end reads on 1 core ...
+Processing paired-end reads on 1 core ...
+Processing paired-end reads on 1 core ...
+Finished in 90.028 s (25.718 µs/read; 2.33 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:          3,500,608
+  Read 1 with adapter:               3,474,385 (99.3%)
+  Read 2 with adapter:               3,423,951 (97.8%)
+Pairs written (passing filters):     3,399,027 (97.1%)
+
+Total basepairs processed: 1,106,192,128 bp
+  Read 1:   525,091,200 bp
+  Read 2:   581,100,928 bp
+Total written (filtered):  1,074,092,532 bp (97.1%)
+  Read 1:   509,854,050 bp
+  Read 2:   564,238,482 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NNNNNNNNNNTGACTGGTACTGACACGTCGCATG; Type: anchored 5'; Length: 34; Trimmed: 3474385 times
+
+No. of allowed errors: 4
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+34	3474385	0.0	4	2573110 695462 162138 35804 7871
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TGAGACTATAAATATCCCTTGGAGACCACCCTTGTTTGNNNNNNNNNNNNNNNNNNNNGTTTAAGAGCTAAGCTGGAAACAGC; Type: anchored 5'; Length: 83; Trimmed: 3423951 times
+
+No. of allowed errors: 12
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+83	3423951	0.0	12	2708568 504262 123105 42944 18956 9055 4846 3215 3570 2052 1842 776 760
+Finished in 99.389 s (25.657 µs/read; 2.34 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:          3,873,688
+  Read 1 with adapter:               3,829,161 (98.9%)
+  Read 2 with adapter:               3,784,843 (97.7%)
+Pairs written (passing filters):     3,757,792 (97.0%)
+
+Total basepairs processed: 1,224,085,408 bp
+  Read 1:   581,053,200 bp
+  Read 2:   643,032,208 bp
+Total written (filtered):  1,187,462,272 bp (97.0%)
+  Read 1:   563,668,800 bp
+  Read 2:   623,793,472 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NNNNNNNNNNTGACTGGTACTGACACGTCGCATG; Type: anchored 5'; Length: 34; Trimmed: 3829161 times
+
+No. of allowed errors: 4
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+34	3829161	0.0	4	2827134 769580 182739 40572 9136
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TGAGACTATAAATATCCCTTGGAGACCACCCTTGTTTGNNNNNNNNNNNNNNNNNNNNGTTTAAGAGCTAAGCTGGAAACAGC; Type: anchored 5'; Length: 83; Trimmed: 3784843 times
+
+No. of allowed errors: 12
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+83	3784843	0.0	12	2993091 559143 135946 47560 20809 10166 5565 3159 3181 2092 2386 1131 614
+Finished in 109.631 s (25.527 µs/read; 2.35 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:          4,294,755
+  Read 1 with adapter:               4,153,637 (96.7%)
+  Read 2 with adapter:               4,016,319 (93.5%)
+Pairs written (passing filters):     3,985,658 (92.8%)
+
+Total basepairs processed: 1,357,142,580 bp
+  Read 1:   644,213,250 bp
+  Read 2:   712,929,330 bp
+Total written (filtered):  1,259,467,928 bp (92.8%)
+  Read 1:   597,848,700 bp
+  Read 2:   661,619,228 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: NNNNNNNNNNTGACTGGTACTGACACGTCGCATG; Type: anchored 5'; Length: 34; Trimmed: 4153637 times
+
+No. of allowed errors: 4
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+34	4153637	0.0	4	3052049 850150 198752 43094 9592
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: TGAGACTATAAATATCCCTTGGAGACCACCCTTGTTTGNNNNNNNNNNNNNNNNNNNNGTTTAAGAGCTAAGCTGGAAACAGC; Type: anchored 5'; Length: 83; Trimmed: 4016319 times
+
+No. of allowed errors: 12
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+83	4016319	0.0	12	3168972 593790 148576 52462 23658 11932 6664 3852 2390 1561 1104 638 720
+
