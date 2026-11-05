@@ -18,6 +18,7 @@ rownames(combined_counts) <- combined_counts$gRNA
 combined_counts <- combined_counts[,-1]
 combined_counts[is.na(combined_counts)] <- 0
 
+# plotting the venn diagram
 venn.diagram(
   x = list(pre41817$gRNA, pre41818$gRNA, pre41824$gRNA),
   category.names = c("pre41817" , "pre41818" , "pre41824"),
